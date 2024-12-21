@@ -170,13 +170,22 @@ footer a{
 }
 
 .img-responsive{
-  max-width: 100%;
+  width: 100%;
   display: block;
 }
 
 .cafe-img{
-  width: 185px;
+  height: 185px; 
+}
+
+.embed{
   height: 185px;
+  aspect-ratio: 1/1; 
+  width: 100%;
+}
+
+.card-header.grid{
+  grid-gap:0;
 }
 
 .text-center{
@@ -208,42 +217,55 @@ footer a{
   background-color: #462CB3;
   letter-spacing: 3px;
   text-align: center;
-
 }
 
 
 
 
 
-@media (max-width: 960px){
 
+@media (max-width: 960px){
+  
   header{
     
     padding: 60px 0;
   }
-
+  
   header h1{
     font-size: 48px;
   }
-
+  
   header h2{
     font-size: 20px;
   }
-
+  
   header h3{
     font-size: 12px;
   }
-
+  
   .grid{
     grid-template-columns: 1fr;
     grid-gap: 32px
   }
-
+  
   section{
     padding: 30px;
   }
-
   
-
+  .main-img{
+    width: 100%;
+    height: 100%;
+  }
+  
+  .card-header img{
+    display: none;
+  }
+  
+  .embed{
+    aspect-ratio: 16/9; 
+  }
+  
+  
+  
   
 }
