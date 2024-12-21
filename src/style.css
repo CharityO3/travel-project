@@ -14,7 +14,11 @@ section{
 }
 
 section.secondary{
-  background-color: #f8f8f8;
+  background-color: #181525;
+}
+
+section.photo-gallery{
+  background-color: #12101D;
 }
 
 header{
@@ -72,7 +76,7 @@ main h2{
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 5px;
-  color: #272044;
+  color: white;
   opacity: 0.3;
   text-transform: uppercase;
   margin: 0;
@@ -82,7 +86,7 @@ main h3{
   font-weight: 700;
   font-size: 40px;
   line-height: 1.5;
-  color: #272044;
+  color: white;
   margin: 0;
 }
 
@@ -90,7 +94,7 @@ main h4{
   font-weight: 700;
   font-size: 24px;
   line-height: 1.5;
-  color: #272044;
+  color: #F9F4FF;
   margin: 0;
 }
 
@@ -98,7 +102,7 @@ main h5{
   font-weight: 700;
   font-size: 13px;
   line-height: 1.5;
-  color: #272044;
+  color: white;
   margin: 0;
 }
 
@@ -107,7 +111,7 @@ main p{
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
-  color: #272044;
+  color: white;
   opacity: 0.7;
 }
 
@@ -153,6 +157,7 @@ footer a{
 
 .grid-2-columns{
   grid-template-columns: 1fr 1fr;
+  background-color: #12101D;
 }
 
 .grid-3-columns-with-first-narrow{
@@ -188,6 +193,7 @@ footer a{
   grid-gap:0;
 }
 
+
 .gallery.grid{
   grid-gap: 30px;
   border-radius: 4px;
@@ -203,7 +209,7 @@ footer a{
 }
 
 .card{
-  background-color: white;
+  background-color: #272435;
   margin-top: 30px 0;
 }
 
@@ -275,7 +281,7 @@ footer a{
   .embed{
     aspect-ratio: 16/9; 
   }
-  
+
   .gallery img{
     aspect-ratio: 21/21; 
   }
